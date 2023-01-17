@@ -4,32 +4,71 @@
   bottom: 0;
   top: 55px;
   background-color: white;
-  width: 72px;
+  width: 225px;
   z-index: 200;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 .sidebar-link{
+  margin-left: 13px;
   display: flex;
-  height: 74px;
-  justify-content: center;
+  width: 200px;
+  height: 40px;
+  justify-content: start;
   align-items: center;
-  flex-direction: column;
   cursor: pointer;
+  border-radius: 10px;
 }
 
-.sidebar-link:hover{
+.sidebar-link:hover, .explore:hover{
   background-color: lightgray;
 }
 
 /* this targets only img inside of the class sidebar-link//
 THIS DOES NOT TARGET ALL IMG */
 .sidebar-link img{
-  height: 24px;
-  margin-bottom: 4px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 15px;
 }
 
-.sidebar-link div{
+.sidebar-link div, .sub-section, .explore div{
   font-family: Roboto,Arial;
-  font-size: 10px;
+  font-size: 15px;
+}
+
+.sub-section{
+  margin-left: 24px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.sidebar-picture{
+  width: 30px;
+  border-radius: 16px;
+}
+
+.sub-dot{
+  height: 4px;
+  background-color: rgb(4, 0, 255);
+  width: 4px;
+  border-radius: 2px;
+  margin-left: auto;
+}
+
+.explore{
+  margin-left: 13px;
+  display: flex;
+  width: 200px;
+  height: 40px;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.explore img{
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 8px;
 }
